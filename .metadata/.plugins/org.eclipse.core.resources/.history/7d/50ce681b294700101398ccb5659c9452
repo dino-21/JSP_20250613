@@ -1,0 +1,9 @@
+package util;
+
+import java.sql.Connection;
+
+public class DBManager {
+  public static Connection getConnection() {
+	  Connection conn = null;  // Connection 변수를 메서드 외부에서 선언하고 초기화
+  }
+}

@@ -1,0 +1,20 @@
+package util;
+
+import java.sql.Connection;
+
+import javax.naming.Context;
+
+public class DBManager {
+  public static Connection getConnection() {
+	  Connection conn = null;  // Connection 변수를 메서드 외부에서 선언하고 초기화
+	  
+	  try {
+		  Context initContext = new lnitialContext();
+	  }catch(Exception e) {
+		  e.printStackTrace();
+		  
+	  }
+	  
+	  return conn;
+  }
+}

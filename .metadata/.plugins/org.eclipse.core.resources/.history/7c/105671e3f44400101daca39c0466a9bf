@@ -1,0 +1,8 @@
+package com.dino.javabeans;
+
+public class MemberBean {
+   private String name;
+   private String userid;
+   
+   
+}

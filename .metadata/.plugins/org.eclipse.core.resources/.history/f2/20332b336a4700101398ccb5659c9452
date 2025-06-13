@@ -1,0 +1,22 @@
+package com.dino.controller.action;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.dino.dao.BoardDAO;
+
+public class BoardCheckPassAction implements Action{
+
+	@Override
+	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	  String url = null;
+	  String num = request.getParameter("num");
+	  String pass = request.getParameter("pass");
+	  BoardDAO bDao = BoardDAO.getInstance()
+		
+	}
+
+}

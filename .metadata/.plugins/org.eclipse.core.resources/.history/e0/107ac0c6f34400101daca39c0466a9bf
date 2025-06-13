@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+고전적인 방식 :
+<% 
+
+//request.getAttribute() 리턴형이 무조건 Object형이기 때문에 Integer로 형변환해야한다는 단점
+%>
+</body>
+</html>

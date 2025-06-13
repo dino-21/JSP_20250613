@@ -1,0 +1,10 @@
+package com.dino.dto;
+
+public class MemberVO {
+    private String username;
+    private String userid;
+    private String pwd;
+    private String email;
+    private String phone;
+    private String phone;
+}

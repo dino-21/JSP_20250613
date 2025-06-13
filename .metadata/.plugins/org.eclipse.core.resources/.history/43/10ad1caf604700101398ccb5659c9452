@@ -1,0 +1,30 @@
+package util;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class DBManager {
+
+	public static Connection getConnection() {
+		Connection conn = null; // Connection 변수를 메서드 외부에서 선언하고 초기화
+		return null;
+		try {
+			
+		}catch() {
+			
+		}
+		return conn;
+	}
+
+	public static void close(Connection conn, Statement stmt, ResultSet rs) {
+		
+		
+	}
+
+	public static void close(Connection conn, Statement stmt) {
+		
+		
+	}
+  
+}

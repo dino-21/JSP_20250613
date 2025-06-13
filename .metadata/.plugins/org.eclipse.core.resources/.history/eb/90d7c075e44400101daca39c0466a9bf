@@ -1,0 +1,5 @@
+package com.dino.javabeans;  //패키지명
+
+public class MemberBean { // 자바 빈 클래스 정의
+
+}
